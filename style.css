@@ -1,0 +1,259 @@
+.para1 {
+    
+    background-color: #c2c2af;
+    color: #333;
+    font-family: Suisse Regular, sans-serif;
+    height: auto;
+    overflow: visible;
+    padding: 2px 10px;
+    width: 100%;
+    
+    text-align: center;
+}
+.p1{
+    text-decoration: underline;
+    font-family: Suisse Medium, sans-serif;
+    color: black;
+}
+
+.para2 {
+    background-color: black;
+    color: #c2c2af;
+    font-family: Suisse Regular, sans-serif;
+    height: auto;
+    overflow: visible;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* start */
+.menu {
+    background-color: #fffef2;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.left-menu {
+    float: left;
+}
+
+.right-menu {
+    float: right;
+}
+.heading{
+    padding-top: 30px;
+  padding-left: 20px;
+  font-size: 50px;
+}
+
+.main{
+    margin-bottom: 5px;
+    background-image: url(Aesop_Bar_Soaps_2023_Web_Homepage_2_Primary_Full_Bleed_Desktop_2880x1044px.avif);
+    color: #fffef2;
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 1500px; /* Set the desired width */
+    height: 480px;
+    
+    
+    
+}
+.h1{ 
+     display: block;
+     font-size: 50px;
+     margin-block-start: 0.83em;
+     margin-block-end: 0.83em;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+     font-weight: bold;
+    
+     padding-left: 250px;
+    
+}
+.h2{
+    padding-left: 250px;
+    font-size: 20px;}
+
+.p2{
+    padding-left: 250px;
+}
+ .btn{
+    
+    width: 250px;
+    height: 80px;
+    background: transparent;
+    margin-left: 250px;
+    border-color: #fffef2;
+    color: #fffef2;
+    text-align: left;
+
+ }
+.box{
+    width: 700px;
+    height: 200px;
+    
+}
+
+/* second part */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+.container{
+    background-color:#fffef2;
+    
+    
+    color: #333;
+    
+
+
+}
+.btn1{
+    width: 200px;
+    height: 80px;
+    background: transparent;
+    margin-left: 40px;
+    border-color: #fffef2;
+    color: #454545;
+    text-align: left;
+  
+    
+}
+.h11{
+    font-family: 'Cormorant', serif;
+    font-weight: normal;
+    padding-left: 40px;
+    color: #454545;
+
+}
+.pp{
+    font-family: 'Cormorant', serif;
+    color: #454545;
+    padding-top: 0px;
+    height: auto;
+    overflow: visible;
+    padding-left: 40px;
+   width: 40%;
+   
+
+}
+
+.pp3{
+    font-family: 'Cormorant', serif;
+    color: #454545;
+    padding-top: 0px;
+    height: auto;
+    overflow: visible;
+    padding-left: 40px;
+   width: 150%
+
+}
+.h22{
+    padding-top: 80px;
+    font-size: 15px;
+    color: #454545;
+    font-weight: bold;
+    font-family: 'Cormorant', serif;
+    padding-left: 40px;
+}
+
+.h33{
+    font-size: 20px;
+    
+    
+   
+   
+}
+/* down are of second part */
+
+.img1{
+  
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: -50px;
+    
+     
+
+}
+.img{
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 200px;
+    gap: -100px;
+}
+
+.imgs{
+    flex-basis: 100px;
+    margin-right: -10px;
+    margin-top: 0.5px;
+}
+
+.imgs-img{
+   
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 100ms;
+    gap: 5px;
+    margin-left: 500px;
+    margin-bottom: 5px;
+
+
+}
+.imgs p{
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.imgs h1{
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    margin-top:0.5px ;
+ }
+
+.img2{
+    padding-left: 500px;
+}
+
+
+
+.content {
+    display: flex; /* Use flexbox to arrange the elements */
+    align-items: center; /* Vertically align items */
+}
+
+/* CSS styling for the text container (heading and paragraph) */
+.text-content {
+    flex: 50; /* Allow text to take up available space */
+}
+
+/* CSS styling for the image */
+.content img {
+    margin-left: 20px; /* Add space between text and image */
+}
+
